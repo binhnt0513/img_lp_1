@@ -247,7 +247,7 @@ body {
     color: #FFFFFF;
     background-color: #e54600;
     border: 2px solid #FFFFFF;
-    box-shadow: #E54600 4px 4px 0 0, #707070 4px 4px 0 2px;
+    box-shadow: #E54600 4px 4px 0 0;
 }
 
 .btn-orange::after {
