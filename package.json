@@ -1,0 +1,17 @@
+{
+  "name": "img",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel ./*.html ",
+    "build": "parcel docs ./*.html  --dist-dir docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "jsdom": "^25.0.1"
+  }
+}
