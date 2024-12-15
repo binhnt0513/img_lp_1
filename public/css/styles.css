@@ -222,8 +222,8 @@ body {
 
 .btn-green {
     background-color: #00985b;
-    border-bottom: 3px solid #036E43;
-    box-shadow: #036E43 4px 4px 0 0;
+    /*border-bottom: 3px solid #036E43;*/
+    box-shadow: #036E43 3px 3px 0 0;
 }
 
 .btn-default::after {
@@ -247,7 +247,7 @@ body {
     color: #FFFFFF;
     background-color: #e54600;
     border: 2px solid #FFFFFF;
-    box-shadow: #E54600 4px 4px 0 0;
+    box-shadow: #E54600 3px 3px 0 0;
 }
 
 .btn-orange::after {
@@ -812,11 +812,6 @@ body {
     font-size: 3rem;
 }
 
-.section25 {
-    width: 100%;
-    max-width: 91.625rem;
-}
-
 .group-iframe-label {
     margin-top: -40px;
     width: 100%;
@@ -843,8 +838,8 @@ body {
 
 .group-iframe-desc {
     font-size: 24px;
-    line-height: 1.5rem;
     color: #000000;
+    padding: 0 17.5px;
 }
 
 .group-iframe {
@@ -1039,17 +1034,16 @@ a {
 
 .section25 {
     width: 100%;
-    max-width: 75rem;
+    max-width: 91.625rem;
     /*height: 41.219rem;*/
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2.5rem;
-    padding-top: 70px;
-    margin-right: 0.062rem;
     text-align: center;
     font-size: 2rem;
     color: #131313;
+    padding: 70px 20px 0;
 }
 
 
@@ -3486,6 +3480,5 @@ body {
 
     .group-iframe-desc {
         font-size: 15px;
-        line-height: 20px;
     }
 }
