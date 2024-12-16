@@ -3489,4 +3489,7 @@ body {
         font-size: 15px;
         padding-top: 51px;
     }
+    .group-iframe {
+        height: 667px;
+    }
 }
